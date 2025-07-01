@@ -1,4 +1,23 @@
-
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang Kami - Logicus Academy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">Logicus Academy</a>
+        <ul class="nav-links">
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
   </header>  <section class="hero">
     <div class="container">
       <h1>Logicus Academy</h1>
@@ -54,4 +73,19 @@
         </div>
       </div>
     </div>
+  </section>  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Hubungi Kami</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Nama" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Pesan" required></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </section>  <footer>
+    <div class="container">
       <p>&copy; 2025 Logicus Academy. Semua Hak Dilindungi.</p>
+    </div>
+  </footer>  <script src="script.js"></script></body>
+</html>
