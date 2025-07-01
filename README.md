@@ -1,2 +1,2 @@
-# Logicus
+# Profile
 None
