@@ -27,7 +27,7 @@
     <div class="container">
       <h2>Visi Logicus Academy</h2>
       <p><strong>"Menjadi Lembaga Pendidikan yang Membangun Generasi Berpikir Logis, Kreatif, dan Berdaya Saing Global."</strong></p><h2>Misi Logicus Academy</h2>
-  <p><strong>"Mengubah Cara Belajar Siswa Indonesia dengan Pendekatan Masuk Akal, Hasil Maksimal!"</strong></p>
+  <p><strong>"Mengubah Cara Belajar Siswa Indonesia dengan Pendekatan Masuk Akal, Hasil Optimal!"</strong></p>
 
   <h2>Konsep Pembelajaran: "LOGIC! LEARN! LEAD!"</h2>
   <p><strong>(Berpikir Logis → Paham Mendalam → Jadi Juara)</strong></p>
