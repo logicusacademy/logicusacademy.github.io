@@ -1,28 +1,10 @@
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tentang Kami - Logicus Academy</title>
-  <link rel="stylesheet" href="style.css">
-</head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="container">
-        <a href="#" class="logo">Logicus Academy</a>
-        <ul class="nav-links">
-          <li><a href="#">Beranda</a></li>
-          <li><a href="#about">Tentang</a></li>
-          <li><a href="#program">Program</a></li>
-          <li><a href="#contact">Kontak</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>  <section class="hero">
+<section class="hero">
     <div class="container">
       <h1>Logicus Academy</h1>
       <p>Tempat belajar modern yang menggabungkan logika, strategi, dan pendekatan personal untuk membantu siswa Indonesia memahami pelajaran secara efektif dan menyenangkan.</p>
     </div>
-  </section>  <section id="about" class="about">
+</section>  <section id="about" class="about">
     <div class="container">
       <h2>Visi Logicus Academy</h2>
       <p><strong>"Menjadi Lembaga Pendidikan yang Membangun Generasi Berpikir Logis, Kreatif, dan Berdaya Saing Global."</strong></p><h2>Misi Logicus Academy</h2>
@@ -72,18 +54,10 @@
         </div>
       </div>
     </div>
-  </section>  <section id="contact" class="contact">
-    <div class="container">
-      <h2>Hubungi Kami</h2>
-      <form id="contactForm">
-        <input type="text" placeholder="Nama" required>
-        <input type="email" placeholder="Email" required>
-        <textarea placeholder="Pesan" required></textarea>
-        <button type="submit">Kirim</button>
-      </form>
-    </div>
-  </section>  <footer>
+  </section>
+  <footer>
     <div class="container">
       <p>&copy; 2025 Logicus Academy. Semua Hak Dilindungi.</p>
     </div>
-  </footer>  <script src="script.js"></script></body>
+  </footer>
+</body>
