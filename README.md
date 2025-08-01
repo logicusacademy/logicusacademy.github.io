@@ -57,7 +57,7 @@
   </section>
   <footer>
     <div class="container">
-      <p>&copy; 2025 Logicus Academy. Semua Hak Dilindungi.</p>
+      <p>&copy; 2024–2025 Logicus Academy. Semua Hak Dilindungi.</p>
     </div>
   </footer>
 </body>
