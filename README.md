@@ -2,7 +2,7 @@
 <section class="hero">
     <div class="container">
       <h1>Logicus Academy</h1>
-      <p>Tempat belajar modern yang menggabungkan logika, strategi, dan pendekatan personal untuk membantu siswa Indonesia memahami pelajaran secara efektif dan menyenangkan.</p>
+      <p>Logicus Academy adalah lembaga belajar yang melatih cara berpikir anak, bukan sekadar mengajarkan materi—agar nilai meningkat, logika kuat, dan anak siap menghadapi tantangan masa depan.</p>
     </div>
 </section>  <section id="about" class="about">
     <div class="container">
