@@ -57,7 +57,7 @@
   </section>
   <footer>
     <div class="container">
-      <p>&copy; 2024–2025 Logicus Academy. Semua Hak Dilindungi.</p>
+      <p>Hak cipta &copy; 2024 - 2026. Logicus Academy. Semua hak dilindungi undang-undang.</p>
     </div>
   </footer>
 </body>
