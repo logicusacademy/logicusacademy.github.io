@@ -1,63 +1,115 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Fungsionalitas Dropdown Explore
-    const exploreDropdown = document.querySelector('.main-nav .dropdown');
-    const dropdownContent = document.querySelector('.main-nav .dropdown-content');
+// ===========================================================
+// LOGICUS ACADEMY — landing page interactions
+// ===========================================================
 
-    if (exploreDropdown && dropdownContent) {
-        // Tambahkan event listener untuk toggle display
-        // Bisa juga hanya CSS :hover, tapi JS lebih fleksibel untuk fungsionalitas klik
-        exploreDropdown.addEventListener('click', function(event) {
-            // Mencegah navigasi default jika link Explore adalah '#'
-            if (event.target.tagName === 'A' && event.target.getAttribute('href') === '#') {
-                event.preventDefault();
-            }
-            dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
-        });
+document.addEventListener('DOMContentLoaded', () => {
+    initMobileNav();
+    initScrollReveal();
+    initHeaderShadow();
+    initSmoothAnchors();
+    initCtaForm();
+});
 
-        // Tutup dropdown jika klik di luar
-        document.addEventListener('click', function(event) {
-            if (!exploreDropdown.contains(event.target) && !dropdownContent.contains(event.target)) {
-                dropdownContent.style.display = 'none';
-            }
+/* ---------- Mobile nav toggle ---------- */
+function initMobileNav() {
+    const toggle = document.getElementById('navToggle');
+    const nav = document.getElementById('main-nav');
+    if (!toggle || !nav) return;
+
+    toggle.addEventListener('click', () => {
+        const isOpen = nav.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    nav.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+            nav.classList.remove('is-open');
+            toggle.setAttribute('aria-expanded', 'false');
         });
+    });
+}
+
+/* ---------- Scroll reveal for [data-reveal] elements ---------- */
+function initScrollReveal() {
+    const items = document.querySelectorAll('[data-reveal]');
+    if (!items.length) return;
+
+    if (!('IntersectionObserver' in window)) {
+        items.forEach((el) => el.classList.add('is-visible'));
+        return;
     }
 
-    // Fungsionalitas Search Bar Sederhana (opsional, bisa lebih kompleks)
-    const searchButton = document.querySelector('.search-bar button');
-    const searchInput = document.querySelector('.search-bar input');
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        },
+        { threshold: 0.15, rootMargin: '0px 0px -40px 0px' }
+    );
 
-    if (searchButton && searchInput) {
-        searchButton.addEventListener('click', function() {
-            const searchTerm = searchInput.value.trim();
-            if (searchTerm) {
-                alert('Mencari: ' + searchTerm);
-                // Di sini Anda akan mengarahkan ke halaman hasil pencarian
-                // window.location.href = `/search?q=${encodeURIComponent(searchTerm)}`;
-            } else {
-                alert('Silakan masukkan kata kunci pencarian.');
-            }
-        });
+    items.forEach((el, i) => {
+        el.style.transitionDelay = `${Math.min(i % 6, 5) * 60}ms`;
+        observer.observe(el);
+    });
+}
 
-        searchInput.addEventListener('keypress', function(event) {
-            if (event.key === 'Enter') {
-                searchButton.click(); // Trigger klik tombol pencarian saat Enter ditekan
-            }
-        });
-    }
+/* ---------- Header subtle shadow after scroll ---------- */
+function initHeaderShadow() {
+    const header = document.getElementById('header');
+    if (!header) return;
 
-    // Contoh Fungsionalitas Scroll Header (Menambahkan shadow saat scroll)
-    const header = document.querySelector('.main-header');
-    window.addEventListener('scroll', function() {
-        if (window.scrollY > 50) { // Jika scroll lebih dari 50px
-            header.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
+    const onScroll = () => {
+        if (window.scrollY > 12) {
+            header.style.boxShadow = '0 6px 20px rgba(27, 58, 87, 0.08)';
         } else {
             header.style.boxShadow = 'none';
         }
-    });
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+}
 
-    // Anda bisa menambahkan fungsionalitas lain di sini:
-    // - Validasi form Login/Sign Up
-    // - Carousel untuk featured programs (menggunakan library atau vanilla JS)
-    // - Load More button untuk hasil pencarian
-    // - Interaksi untuk halaman detail kursus (toggle syllabus, dll)
-});
+/* ---------- Smooth-scroll for in-page anchors (offset for sticky header) ---------- */
+function initSmoothAnchors() {
+    const header = document.getElementById('header');
+    const headerHeight = header ? header.offsetHeight : 0;
+
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener('click', (e) => {
+            const targetId = anchor.getAttribute('href');
+            if (!targetId || targetId === '#') return;
+            const target = document.querySelector(targetId);
+            if (!target) return;
+
+            e.preventDefault();
+            const top = target.getBoundingClientRect().top + window.pageYOffset - headerHeight - 12;
+            window.scrollTo({ top, behavior: 'smooth' });
+        });
+    });
+}
+
+/* ---------- CTA / consultation form ---------- */
+function initCtaForm() {
+    const form = document.querySelector('.cta-form');
+    if (!form) return;
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const submitBtn = form.querySelector('button[type="submit"]');
+        const originalLabel = submitBtn.innerHTML;
+
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<i class="fa-solid fa-check"></i> Terkirim, tim kami akan menghubungi Anda';
+
+        setTimeout(() => {
+            form.reset();
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = originalLabel;
+        }, 3200);
+    });
+}
