@@ -1,176 +1,339 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logicus Academy - Belajar Masuk Akal, Hasil Optimal!</title>
+    <title>Logicus Academy — Belajar Berpikir, Bukan Sekadar Menghafal</title>
+    <meta name="description" content="Logicus Academy melatih siswa SD hingga mahasiswa berpikir logis, kritis, dan sistematis. Belajar masuk akal, hasil optimal.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
-    <header class="main-header">
-        <div class="container">
-            <div class="logo">
-                <a href="#">Logicus Academy</a>
-            </div>
-            <nav class="main-nav">
-                <div class="search-bar">
-                    <input type="text" placeholder="Mau belajar apa?">
-                    <button><i class="fas fa-search"></i></button>
-                </div>
+    <a class="skip-link" href="#main">Langsung ke konten</a>
+
+    <!-- ============ HEADER ============ -->
+    <header class="main-header" id="header">
+        <div class="container header-inner">
+            <a href="#" class="logo" aria-label="Logicus Academy — beranda">
+                <span class="logo-mark" aria-hidden="true">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 8c-5 0-8 3.5-8 7.5 0 1.6.5 3 1.4 4.2-1 1-1.6 2.3-1.6 3.8 0 2.7 1.9 4.9 4.4 5.4v3.6h3.8V16.5" stroke="#1B3A57" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M24 8c5 0 8 3.5 8 7.5 0 1.6-.5 3-1.4 4.2 1 1 1.6 2.3 1.6 3.8 0 2.7-1.9 4.9-4.4 5.4v3.6h-3.8" stroke="#F5941B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="30.5" cy="17.5" r="1.6" fill="#F5941B"/>
+                        <circle cx="32.5" cy="24" r="1.6" fill="#F5941B"/>
+                        <path d="M14 30h20l-10 8-10-8z" stroke="#1B3A57" stroke-width="2.2" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                </span>
+                <span class="logo-word">Logicus<em>Academy</em></span>
+            </a>
+
+            <nav class="main-nav" id="main-nav">
                 <ul>
-                    <li><a href="#">Logika </a></li>
-                    <li class="dropdown">
-                        <a href="#">Matematika <i class="fas fa-chevron-down"></i></a>
-                        <div class="dropdown-content">
-                            <a href="#">SD</a>
-                            <a href="#">SMP</a>
-                            <a href="#">SMA</a>
-                            <a href="#">Matematika Dasar</a>
-                            <a href="#">Statistika Dasar</a>
-                            <hr>
-                            <a href="#">Tes Kemampuan Akademik (TKA)</a>
-                            <a href="#">Tes Kemampuan Dasar (TKD)</a>
-                            <a href="#">Tes Potensi Akademik (TPA)</a>
-                            <a href="#">Tes Potensi Skolastik (TPS)</a>
-                            <a href="#">UTBK–SNBT</a>
-                        </div>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">Fisika <i class="fas fa-chevron-down"></i></a>
-                        <div class="dropdown-content">
-                            <a href="#">SMP</a>
-                            <a href="#">SMA</a>
-                        </div>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">Kimia <i class="fas fa-chevron-down"></i></a>
-                        <div class="dropdown-content">
-                            <a href="#">SMP</a>
-                            <a href="#">SMA</a>
-                        </div>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">Biologi <i class="fas fa-chevron-down"></i></a>
-                        <div class="dropdown-content">
-                            <a href="#">SMP</a>
-                            <a href="#">SMA</a>
-                            <hr>
-                        </div>
-                    </li>
-                    <li><a href="#" class="btn btn-login">Sign In</a></li>
-                    <li><a href="#" class="btn btn-signup">Sign Up</a></li>
-                    </ul>
+                    <li><a href="#program">Program</a></li>
+                    <li><a href="#metode">Metode Kami</a></li>
+                    <li><a href="#inspirator">Filosofi</a></li>
+                    <li><a href="#testimoni">Testimoni</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="#" class="btn btn-ghost">Masuk</a>
+                    <a href="#konsultasi" class="btn btn-primary">Konsultasi Gratis</a>
+                </div>
             </nav>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="main-nav">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </header>
 
-    <section class="hero-section">
-        <div class="container">
-            <h1>Belajar Masuk Akal, Hasil Optimal!</h1>
-            <p>Kami percaya bahwa setiap anak punya potensi luar biasa—tugas kami adalah mengaktifkannya.</p>
-            <button class="btn btn-primary">Aktifkan</button>
-        </div>
-    </section>
+    <main id="main">
+        <!-- ============ HERO ============ -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy" data-reveal>
+                    <p class="eyebrow">The Thinking Academy</p>
+                    <h1>Belajar Berpikir,<br>Bukan Sekadar <span class="highlight">Menghafal.</span></h1>
+                    <p class="hero-lead">Logicus Academy melatih siswa SD hingga mahasiswa untuk bernalar logis, berpikir kritis, dan memecahkan masalah — bekal yang berlaku jauh melampaui ujian.</p>
+                    <div class="hero-actions">
+                        <a href="#konsultasi" class="btn btn-primary btn-lg">Konsultasi Gratis <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#program" class="btn btn-outline btn-lg">Lihat Program</a>
+                    </div>
+                    <div class="hero-tagline">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <span>Belajar Masuk Akal, Hasil Optimal!</span>
+                    </div>
+                </div>
 
-    <section class="featured-programs">
-        <div class="container">
-            <h2>Program Belajar</h2>
-            <div class="program-grid">
-                <div class="program-card">
-                    <img src="https://via.placeholder.com/300x180?text=Course+Image" alt="Course Image">
-                    <h3>Logika Dasar</h3>
-                    <p class="provider">LD</p>
-                    <div class="rating">
-                        <i class="fas fa-star"></i> 1️⃣
-                    </div>
-                    <p class="level">Beginner · Mudah</p>
-                    <a href="#" class="btn btn-small">Lanjutkan</a>
-                </div>
-                <div class="program-card">
-                    <img src="https://via.placeholder.com/300x180?text=Course+Image" alt="Course Image">
-                    <h3>Matematika Dasar</h3>
-                    <p class="provider">MD</p>
-                    <div class="rating">
-                        <i class="fas fa-star"></i> 2️⃣
-                    </div>
-                    <p class="level">Beginner · Mudah</p>
-                    <a href="#" class="btn btn-small">Lanjutkan</a>
-                </div>
-                <div class="program-card">
-                    <img src="https://via.placeholder.com/300x180?text=Course+Image" alt="Course Image">
-                    <h3>Sains Dasar</h3>
-                    <p class="provider">BSc</p>
-                    <div class="rating">
-                        <i class="fas fa-star"></i> 3️⃣
-                    </div>
-                    <p class="level">Beginner · Mudah</p>
-                    <a href="#" class="btn btn-small">Lanjutkan</a>
-                </div>
-                <div class="program-card">
-                    <img src="https://via.placeholder.com/300x180?text=Course+Image" alt="Course Image">
-                    <h3>Statistika Dasar</h3>
-                    <p class="provider">BStat</p>
-                    <div class="rating">
-                        <i class="fas fa-star"></i> 4️⃣
-                    </div>
-                    <p class="level">Beginner · Mudah</p>
-                    <a href="#" class="btn btn-small">Lanjutkan</a>
-                </div>
-                </div>
-        </div>
-    </section>
-
-    <section class="partners-section">
-        <div class="container">
-            <h2>Inspirator</h2>
-            <div class="partner-logos">
-                <img src="https://via.placeholder.com/120x60?text=Google" alt="Nabi Muhammad SAW.">
-                <img src="https://via.placeholder.com/120x60?text=IBM" alt="KH. Ahmad Dahlan">
-                <img src="https://via.placeholder.com/120x60?text=Stanford" alt="RM. Soewardi Soerjaningrat">
-                </div>
-            <button class="btn btn-secondary">Lanjutkan</button>
-        </div>
-    </section>
-
-    <footer class="main-footer">
-        <div class="container">
-            <div class="footer-cols">
-                <div class="footer-col">
-                    <h3>Logicus Academy</h3>
-                    <ul>
-                        <li><a href="#">Tentang Kami</a></li>
-                        <li><a href="#">Cerita Kami</a></li>
-                        <li><a href="#">Kontak Kami</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Framework</h3>
-                    <ul>
-                        <li><a href="#">Logic!</a></li>
-                        <li><a href="#">Learn!</a></li>
-                        <li><a href="#">Lead!</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col social-links">
-                    <h3>Ikuti Kami</h3>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/syahrildimassabirin/"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.youtube.com/@SabirinID/"><i class="fab fa-youtube"></i></a>
+                <div class="hero-visual" aria-hidden="true">
+                    <svg class="brain-draw" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="210" cy="210" r="190" class="ring" stroke="#5C7A99" stroke-width="1" stroke-dasharray="2 8"/>
+                        <path class="stroke-organic" d="M210 90c-38 0-70 24-72 58-1 12 3 22 10 30-8 8-13 19-13 31 0 22 16 40 38 44v28h37V96" stroke="#1B3A57" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="stroke-organic delay1" d="M155 150c8 4 12 12 10 22" stroke="#1B3A57" stroke-width="3.5" stroke-linecap="round"/>
+                        <path class="stroke-organic delay2" d="M150 195c10 2 18 10 18 22" stroke="#1B3A57" stroke-width="3.5" stroke-linecap="round"/>
+                        <path class="stroke-circuit" d="M210 90c38 0 70 24 72 58 1 12-3 22-10 30 8 8 13 19 13 31 0 22-16 40-38 44v28h-37V96" stroke="#F5941B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="stroke-circuit delay1" d="M255 140v20h20v18" stroke="#F5941B" stroke-width="3.5" stroke-linecap="round"/>
+                        <path class="stroke-circuit delay2" d="M270 195h18v24h-14" stroke="#F5941B" stroke-width="3.5" stroke-linecap="round"/>
+                        <circle class="node" cx="275" cy="160" r="4.5" fill="#F5941B"/>
+                        <circle class="node delay1" cx="288" cy="219" r="4.5" fill="#F5941B"/>
+                        <path class="stroke-book" d="M138 262h144l-72 56-72-56z" stroke="#1B3A57" stroke-width="4" stroke-linejoin="round"/>
+                    </svg>
                 </div>
             </div>
-            <div class="copyright">
-                <p>&copy; 2024–2026 Logicus Academy. All rights reserved.</p>
+        </section>
+
+        <!-- ============ INSIGHT: HAFAL VS PAHAM ============ -->
+        <section class="insight">
+            <div class="container">
+                <p class="section-eyebrow" data-reveal>Kenapa Logicus</p>
+                <h2 data-reveal>Hafal rumus tapi bingung saat soalnya diubah sedikit?</h2>
+                <p class="section-lead" data-reveal>Itu bukan salah anak Anda — itu tanda klasik pembelajaran berbasis hafalan, bukan pemahaman.</p>
+
+                <div class="compare-grid">
+                    <div class="compare-card compare-old" data-reveal>
+                        <span class="compare-tag">Cara Lama</span>
+                        <h3>Menghafal Jawaban</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-xmark"></i> Fokus pada drilling soal berulang</li>
+                            <li><i class="fa-solid fa-xmark"></i> Kesulitan saat soal sedikit berbeda</li>
+                            <li><i class="fa-solid fa-xmark"></i> Nilai naik sesaat, pemahaman tidak bertahan</li>
+                        </ul>
+                    </div>
+                    <div class="compare-vs" aria-hidden="true">VS</div>
+                    <div class="compare-card compare-new" data-reveal>
+                        <span class="compare-tag">Cara Logicus</span>
+                        <h3>Memahami Cara Berpikir</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Melatih penalaran logis lintas mata pelajaran</li>
+                            <li><i class="fa-solid fa-check"></i> Siap menghadapi soal & masalah apa pun</li>
+                            <li><i class="fa-solid fa-check"></i> Kemampuan yang bertahan seumur hidup</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+        </section>
+
+        <div class="divider-circuit" aria-hidden="true">
+            <svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0 30 H420 L450 10 L480 50 L510 30 H1200" stroke="#F5941B" stroke-width="2" fill="none"/></svg>
+        </div>
+
+        <!-- ============ PROGRAM ============ -->
+        <section class="programs" id="program">
+            <div class="container">
+                <p class="section-eyebrow" data-reveal>Program Belajar</p>
+                <h2 data-reveal>Satu Metode, Setiap Jenjang</h2>
+                <p class="section-lead" data-reveal>Dari fondasi logika di sekolah dasar hingga pemikiran analitis di bangku kuliah — dirancang bertahap dan berkesinambungan.</p>
+
+                <div class="program-grid">
+                    <article class="program-card" data-reveal>
+                        <span class="program-index">01</span>
+                        <div class="program-icon"><i class="fa-solid fa-seedling"></i></div>
+                        <h3>Logicus Junior</h3>
+                        <p class="program-audience">SD</p>
+                        <p>Menumbuhkan fondasi logika dan rasa ingin tahu lewat permainan berpikir dan studi kasus sederhana.</p>
+                    </article>
+                    <article class="program-card" data-reveal>
+                        <span class="program-index">02</span>
+                        <div class="program-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                        <h3>Logicus Core</h3>
+                        <p class="program-audience">SMP – SMA</p>
+                        <p>Mempertajam penalaran kritis, persiapan UTBK & olimpiade dengan metode berpikir sistematis.</p>
+                    </article>
+                    <article class="program-card" data-reveal>
+                        <span class="program-index">03</span>
+                        <div class="program-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        <h3>Logicus Advance</h3>
+                        <p class="program-audience">Mahasiswa</p>
+                        <p>Melatih pemikiran analitis, riset, dan pengambilan keputusan untuk dunia kuliah dan karier.</p>
+                    </article>
+                    <article class="program-card" data-reveal>
+                        <span class="program-index">04</span>
+                        <div class="program-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                        <h3>Logicus for Educators</h3>
+                        <p class="program-audience">Guru</p>
+                        <p>Program pelatihan untuk menumbuhkan budaya berpikir kritis di ruang kelas.</p>
+                    </article>
+                    <article class="program-card" data-reveal>
+                        <span class="program-index">05</span>
+                        <div class="program-icon"><i class="fa-solid fa-people-roof"></i></div>
+                        <h3>Logicus for Parents</h3>
+                        <p class="program-audience">Orang Tua</p>
+                        <p>Membekali orang tua dengan cara membimbing pola pikir anak dari rumah.</p>
+                    </article>
+                    <a href="#konsultasi" class="program-card program-cta" data-reveal>
+                        <div>
+                            <h3>Belum yakin mulai dari mana?</h3>
+                            <p>Konsultasikan gratis dengan tim kami, temukan program yang paling cocok.</p>
+                        </div>
+                        <span class="program-cta-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ METODE / FILOSOFI ============ -->
+        <section class="method" id="metode">
+            <div class="container method-grid">
+                <div class="method-visual" data-reveal aria-hidden="true">
+                    <svg viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M160 60c-30 0-56 19-58 46-1 10 2 18 8 24-6 6-10 15-10 25 0 18 13 33 30 36v22h30V70" stroke="#FBF3E3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M160 60c30 0 56 19 58 46 1 10-2 18-8 24 6 6 10 15 10 25 0 18-13 33-30 36v22h-30" stroke="#F5941B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="205" cy="118" r="3.5" fill="#F5941B"/>
+                        <circle cx="215" cy="155" r="3.5" fill="#F5941B"/>
+                    </svg>
+                </div>
+                <div class="method-copy">
+                    <p class="section-eyebrow section-eyebrow--light" data-reveal>Filosofi Kami</p>
+                    <h2 data-reveal>Dua Sisi Berpikir, Satu Tujuan</h2>
+                    <p data-reveal>Nama "Logicus" berakar dari kata Latin <em>logica</em> — warisan intelektual yang membimbing manusia berpikir sistematis sejak Aristoteles hingga era kecerdasan buatan hari ini.</p>
+                    <p data-reveal>Identitas kami menggambarkan otak dengan dua belahan: satu sisi organik yang merepresentasikan intuisi dan rasa ingin tahu manusia, satu sisi lagi berbentuk sirkuit yang merepresentasikan struktur dan presisi. Di Logicus, kedua sisi ini dilatih untuk bekerja bersama.</p>
+                    <a href="#kontak" class="btn btn-outline-light">Pelajari Metode Kami</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ INSPIRATOR ============ -->
+        <section class="inspirator" id="inspirator">
+            <div class="container">
+                <p class="section-eyebrow" data-reveal>Inspirator</p>
+                <h2 data-reveal>Tokoh yang Membentuk Cara Berpikir Kami</h2>
+                <p class="section-lead" data-reveal>Tiga warisan pemikiran yang menjadi rujukan filosofi Logicus Academy — logika, kemandirian berpikir, dan pendidikan sebagai penuntun.</p>
+
+                <div class="inspirator-grid">
+                    <article class="inspirator-card" data-reveal>
+                        <span class="inspirator-mark" aria-hidden="true"><i class="fa-solid fa-scale-balanced"></i></span>
+                        <h3>Aristoteles</h3>
+                        <p class="inspirator-role">Bapak Logika Formal</p>
+                        <p>Meletakkan dasar penalaran valid lewat <em>Organon</em> — akar dari kata "Logicus" itu sendiri.</p>
+                    </article>
+                    <article class="inspirator-card" data-reveal>
+                        <span class="inspirator-mark" aria-hidden="true"><i class="fa-solid fa-compass"></i></span>
+                        <h3>Ki Hajar Dewantara</h3>
+                        <p class="inspirator-role">Bapak Pendidikan Indonesia</p>
+                        <p>Mengajarkan bahwa pendidikan sejati menuntun, bukan sekadar mengisi — selaras dengan peran guru sebagai pemandu berpikir.</p>
+                    </article>
+                    <article class="inspirator-card" data-reveal>
+                        <span class="inspirator-mark" aria-hidden="true"><i class="fa-solid fa-book-open-reader"></i></span>
+                        <h3>KH. Ahmad Dahlan</h3>
+                        <p class="inspirator-role">Pembaru Pendidikan Berlandaskan Akal Sehat</p>
+                        <p>Menyatukan ilmu dan akhlak — ilmu yang mencerahkan, adab yang membimbing.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ TESTIMONI ============ -->
+        <section class="testimoni" id="testimoni">
+            <div class="container">
+                <p class="section-eyebrow" data-reveal>Testimoni</p>
+                <h2 data-reveal>Kata Mereka yang Sudah Belajar Berpikir</h2>
+
+                <div class="testimoni-grid">
+                    <blockquote class="testimoni-card" data-reveal>
+                        <p>"Anak saya jadi lebih berani bertanya 'kenapa', bukan cuma menerima jawaban begitu saja."</p>
+                        <footer>Orang tua siswa, Logicus Junior</footer>
+                    </blockquote>
+                    <blockquote class="testimoni-card" data-reveal>
+                        <p>"Metodenya beda — bukan drilling soal, tapi benar-benar diajarin cara mikirnya dari akar masalah."</p>
+                        <footer>Siswa, Logicus Core</footer>
+                    </blockquote>
+                    <blockquote class="testimoni-card" data-reveal>
+                        <p>"Sebagai guru, pelatihan ini mengubah cara saya bertanya di kelas — lebih banyak memancing, lebih sedikit menjawab."</p>
+                        <footer>Peserta, Logicus for Educators</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CTA ============ -->
+        <section class="cta-band" id="konsultasi">
+            <div class="container cta-inner">
+                <div>
+                    <h2>Dunia butuh lebih banyak orang yang tahu cara berpikir.</h2>
+                    <p>Jadwalkan konsultasi gratis dan temukan program yang tepat untuk anak Anda.</p>
+                </div>
+                <form class="cta-form" data-reveal>
+                    <input type="text" placeholder="Nama orang tua / siswa" required>
+                    <input type="tel" placeholder="Nomor WhatsApp" required>
+                    <select required>
+                        <option value="" disabled selected>Pilih jenjang</option>
+                        <option>SD</option>
+                        <option>SMP</option>
+                        <option>SMA</option>
+                        <option>Mahasiswa</option>
+                        <option>Guru</option>
+                        <option>Orang Tua</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary btn-lg">Jadwalkan Konsultasi</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="main-footer" id="kontak">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo logo-footer">
+                    <span class="logo-mark" aria-hidden="true">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 8c-5 0-8 3.5-8 7.5 0 1.6.5 3 1.4 4.2-1 1-1.6 2.3-1.6 3.8 0 2.7 1.9 4.9 4.4 5.4v3.6h3.8V16.5" stroke="#FBF3E3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M24 8c5 0 8 3.5 8 7.5 0 1.6-.5 3-1.4 4.2 1 1 1.6 2.3 1.6 3.8 0 2.7-1.9 4.9-4.4 5.4v3.6h-3.8" stroke="#F5941B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="30.5" cy="17.5" r="1.6" fill="#F5941B"/>
+                            <circle cx="32.5" cy="24" r="1.6" fill="#F5941B"/>
+                            <path d="M14 30h20l-10 8-10-8z" stroke="#FBF3E3" stroke-width="2.2" stroke-linejoin="round" fill="none"/>
+                        </svg>
+                    </span>
+                    <span class="logo-word">Logicus<em>Academy</em></span>
+                </a>
+                <p>Belajar berpikir, bukan sekadar menghafal — untuk seumur hidup.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.linkedin.com/in/syahrildimassabirin/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.youtube.com/@SabirinID/" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Logicus Academy</h3>
+                <ul>
+                    <li><a href="#metode">Tentang Kami</a></li>
+                    <li><a href="#metode">Metode Kami</a></li>
+                    <li><a href="#inspirator">Filosofi</a></li>
+                    <li><a href="#kontak">Kontak Kami</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Program</h3>
+                <ul>
+                    <li><a href="#program">Logicus Junior</a></li>
+                    <li><a href="#program">Logicus Core</a></li>
+                    <li><a href="#program">Logicus Advance</a></li>
+                    <li><a href="#program">For Educators &amp; Parents</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Framework</h3>
+                <ul class="framework-list">
+                    <li><span>Logic!</span> Bernalar dengan struktur.</li>
+                    <li><span>Learn!</span> Memahami, bukan menghafal.</li>
+                    <li><span>Lead!</span> Berpikir untuk memimpin diri.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container copyright">
+            <p>&copy; 2024–2025 Logicus Academy. Belajar Masuk Akal, Hasil Optimal!</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
