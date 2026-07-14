@@ -36,32 +36,12 @@
   </div>
 </div>
 
-  </section>  <section id="program" class="program">
-    <div class="container">
-      <h2>Program Unggulan Kami</h2>
-      <div class="program-cards">
-        <div class="card">
-          <h3>Kelas Reguler</h3>
-          <p>Pembelajaran tatap muka dan daring sesuai kurikulum nasional dan kebutuhan siswa.</p>
-        </div>
-        <div class="card">
-          <h3>Kelas Intensif UTBK</h3>
-          <p>Program persiapan UTBK yang difokuskan pada strategi pengerjaan soal dan simulasi rutin.</p>
-        </div>
-        <div class="card">
-          <h3>Mentoring Olimpiade</h3>
-          <p>Bimbingan akademik untuk siswa berprestasi yang ingin mengikuti kompetisi tingkat nasional maupun internasional.</p>
-        </div>
-      </div>
-    </div>
-  </section>
   <footer>
     <div class="container">
       <p>Hak cipta &copy; 2024 - 2026. Logicus Academy. Semua hak dilindungi undang-undang.</p>
     </div>
   </footer>
 </body>
-
 
 
 
