@@ -32,7 +32,7 @@
       <li><strong>Proyek aplikatif</strong>: Penerapan ilmu dalam kasus nyata (misal: matematika untuk analisis data sederhana).</li>
       <li><strong>Komunitas belajar</strong>: Grup diskusi dan mentorship dengan alumni sukses.</li>
     </ul>
-    <p><em>"Ngerti Dasarnya, Jago Praktiknya!"</em></p>
+    <p><em>"Belajar Masuk Akal, Hasil Optimal!"</em></p>
   </div>
 </div>
 
@@ -42,8 +42,3 @@
     </div>
   </footer>
 </body>
-
-
-
-
-
