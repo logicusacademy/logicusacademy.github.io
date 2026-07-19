@@ -4,7 +4,19 @@
       <h1>Logicus Academy</h1>
       <p>Lembaga pendidikan yang membantu siswa memahami pelajaran dari cara berpikirnya.</p>
     </div>
-</section>  <section id="about" class="about">
+</section>
+
+<!-- MANIFESTO SECTION -->
+<section id="manifesto" class="manifesto" style="padding: 40px 20px;">
+            <div class="container" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <h2>Manifesto Kami</h2>
+                <blockquote style="font-size: 1.1em; border-left: 4px solid #333; padding-left: 20px; text-align: left; background: #fafafa; padding: 20px;">
+                    "Mulai dari menanamkan rasa ingin tahu untuk memahami konsep dasar, menumbuhkan penalaran logis dan pemikiran kritis, hingga mematangkan kemampuan <strong>metakognisi</strong> dalam penyelesaian masalah; Logicus merancang setiap program sebagai perjalanan belajar sepanjang hayat: <strong>bertahap prosesnya, terukur capaiannya, dan berkelanjutan dampaknya.</strong>"
+                </blockquote>
+            </div>
+</section>
+ 
+<section id="about" class="about">
     <div class="container">
       <h2>Visi Logicus Academy</h2>
       <p><strong>"Menjadi Lembaga Pendidikan yang Membangun Generasi Berpikir Logis, Kreatif, dan Berdaya Saing Global."</strong></p><h2>Misi Logicus Academy</h2>
