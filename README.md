@@ -1,11 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logicus Academy - Belajar Masuk Akal, Hasil Optimal</title>
+</head>
 <body>
-<section class="hero">
-    <div class="container">
-      <h1>Logicus Academy</h1>
-      <p>Lembaga pendidikan yang membantu siswa memahami pelajaran dari cara berpikirnya.</p>
-    </div>
-</section>
 
+<!-- HERO SECTION -->
+<header class="hero" style="text-align: center; padding: 50px 20px; background-color: #f4f7f6;">
+        <div class="container">
+            <h1>Logicus Academy</h1>
+            <p style="font-size: 1.2em; font-style: italic; color: #555;">Belajar Masuk Akal, Hasil Optimal!</p>
+            <p style="max-width: 800px; margin: 20px auto; line-height: 1.6;">
+                Pendidikan seharusnya bukan tentang menyuapi informasi atau memaksa anak menghafal rumus secara buta. 
+                Di Logicus Academy, kami percaya bahwa setiap siswa memiliki potensi analitis yang luar biasa jika diberikan "kompas" yang tepat. 
+                Kami hadir bukan sekadar sebagai tempat bimbingan belajar, melainkan <strong>ruang transformasi</strong> yang membantu siswa memahami pelajaran dari cara berpikirnya sendiri.
+            </p>
+        </div>
+</header>
+
+<main>
 <!-- MANIFESTO SECTION -->
 <section id="manifesto" class="manifesto" style="padding: 40px 20px;">
             <div class="container" style="max-width: 800px; margin: 0 auto; text-align: center;">
@@ -15,42 +30,80 @@
                 </blockquote>
             </div>
 </section>
- 
-<section id="about" class="about">
-    <div class="container">
-      <h2>Visi Logicus Academy</h2>
-      <p><strong>"Menjadi Lembaga Pendidikan yang Membangun Generasi Berpikir Logis, Kreatif, dan Berdaya Saing Global."</strong></p><h2>Misi Logicus Academy</h2>
-  <p><strong>"Mengubah Cara Belajar Siswa Indonesia dengan Pendekatan Masuk Akal, Hasil Optimal!"</strong></p>
 
-  <h2>Konsep Pembelajaran: "LOGIC! LEARN! LEAD!"</h2>
-  <p><strong>(Berpikir Logis → Paham Mendalam → Jadi Juara)</strong></p>
+<!-- VISION & MISSION SECTION -->
+<section id="about" class="about" style="padding: 40px 20px; background-color: #f9f9f9;">
+<div class="container" style="max-width: 800px; margin: 0 auto;">
+<div style="margin-bottom: 30px;">
+                    <h2>Jati Diri & Tujuan</h2>
+                    <p>Bukan hanya mengejar kelulusan, kami membangun fondasi manusia yang siap menghadapi kerumitan dunia nyata. Inilah arah langkah kami:</p>
+</div>
+                
+<div style="margin-bottom: 20px;">
+                    <h3>Visi</h3>
+                    <p><strong>"Menjadi Lembaga Pendidikan yang Membangun Generasi Berpikir Logis, Kreatif, dan Berdaya Saing Global."</strong></p>
+</div>
+                
+<div>
+                    <h3>Misi</h3>
+                    <p><strong>"Mengubah Cara Belajar Siswa Indonesia dengan Pendekatan Masuk Akal, Hasil Optimal!"</strong></p>
+</div>
+</div>
+</section>
 
-  <div class="learning-phases">
-    <h3>1. LOGIC! (AKU TAHU ‘MENGAPA’)</h3>
-    <ul>
-      <li><strong>Pembelajaran berbasis konsep</strong>: Setiap materi diajarkan dengan penjelasan sebab-akibat.</li>
-      <li><strong>Metode analogi & cerita</strong>: Kompleksitas pelajaran diubah jadi analogi sehari-hari yang mudah dicerna.</li>
-      <li><strong>Latihan berpikir kritis</strong>: Siswa dilatih mengurai masalah langkah demi langkah.</li>
-    </ul>
-    <h3>2. LEARN! (AKU BISA ‘MENYELESAIKAN’)</h3>
-    <ul>
-      <li><strong>Kurikulum adaptif</strong>: Materi disesuaikan dengan gaya belajar (visual, auditori, kinestetik).</li>
-      <li><strong>Bank soal berbasis data</strong>: Latihan soal dipilih berdasarkan tren UTBK/Kurikulum Merdeka + analisis weakness siswa.</li>
-      <li><strong>Teknik ‘smart drilling’</strong>: Latihan terstruktur untuk meningkatkan kecepatan & ketepatan.</li>
-    </ul>
-    <h3>3. LEAD! (AKU SIAP ‘JUARA’)</h3>
-    <ul>
-      <li><strong>Pelatihan mindset</strong>: Motivasi & manajemen stres saat ujian.</li>
-      <li><strong>Proyek aplikatif</strong>: Penerapan ilmu dalam kasus nyata (misal: matematika untuk analisis data sederhana).</li>
-      <li><strong>Komunitas belajar</strong>: Grup diskusi dan mentorship dengan alumni sukses.</li>
-    </ul>
-    <p><em>"Belajar Masuk Akal, Hasil Optimal!"</em></p>
-  </div>
+<!-- LEARNING ARCHITECTURE SECTION -->
+<section id="methodology" class="methodology" style="padding: 50px 20px;">
+<div class="container" style="max-width: 800px; margin: 0 auto;">
+                <h2 style="text-align: center;">Arsitektur Pembelajaran: The Logicus 3L Standard</h2>
+                <p style="text-align: center; margin-bottom: 40px;">Setiap siswa yang bergabung dengan Logicus akan dipandu melewati sebuah rute intelektual yang dirancang secara presisi. Inilah fase transformasi tersebut:</p>
+
+<div class="learning-phases">
+                    
+<!-- FASE 1 -->
+<div class="phase-card" style="margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+                        <h3 style="color: #2c3e50;">1. LEARN! <em>(Menanamkan Rasa Ingin Tahu)</em></h3>
+                        <p><strong>Titik Awal:</strong> Segala sesuatu dimulai dari membedah pertanyaan <em>"Mengapa?"</em>. Pada fase ini, kami membebaskan siswa dari beban menghafal. Kami mengajari mereka cara menyerap esensi ilmu secara mendalam.</p>
+                        <ul>
+                            <li><strong>Pembelajaran berbasis konsep:</strong> Setiap materi diajarkan dengan mengurai sebab-akibat agar materi terasa hidup dan relevan.</li>
+                            <li><strong>Metode analogi & cerita:</strong> Kompleksitas pelajaran diterjemahkan menjadi analogi sehari-hari yang mudah dicerna oleh nalar.</li>
+                            <li><strong>Kurikulum adaptif:</strong> Penyesuaian penyampaian materi berdasarkan gaya belajar unik tiap siswa (visual, auditori, kinestetik).</li>
+                        </ul>
 </div>
 
-  <footer>
-    <div class="container">
-      <p>Hak cipta &copy; 2024 - 2026. Logicus Academy. Semua hak dilindungi undang-undang.</p>
-    </div>
-  </footer>
+<!-- FASE 2 -->
+<div class="phase-card" style="margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+                        <h3 style="color: #2c3e50;">2. LOGIC! <em>(Menumbuhkan Penalaran Logis & Kritis)</em></h3>
+                        <p><strong>Titik Proses:</strong> Informasi yang dipahami akan menjadi rentan tanpa adanya struktur. Di fase ini, kami mengubah rasa ingin tahu menjadi sirkuit logika yang tajam untuk mengeksekusi masalah.</p>
+                        <ul>
+                            <li><strong>Latihan berpikir kritis:</strong> Siswa dilatih menginterogasi asumsi dan mengurai soal-soal kompleks langkah demi langkah.</li>
+                            <li><strong>Bank soal berbasis data:</strong> Latihan dikurasi berdasarkan tren UTBK/Kurikulum Merdeka dan dipertajam melalui analisis titik lemah (<em>weakness</em>) setiap siswa.</li>
+                            <li><strong>Teknik ‘smart drilling’:</strong> Latihan taktis yang bukan sekadar pengulangan, melainkan simulasi presisi untuk meningkatkan kecepatan dan ketepatan.</li>
+                        </ul>
+</div>
+
+<!-- FASE 3 -->
+<div class="phase-card" style="margin-bottom: 40px;">
+                        <h3 style="color: #2c3e50;">3. LEAD! <em>(Mematangkan Metakognisi & Kemandirian)</em></h3>
+                        <p><strong>Titik Puncak:</strong> Inilah hasil akhir dari proses Logicus. Siswa tidak lagi bergantung pada "suapan" guru atau rumus instan. Mereka kini mampu memimpin pikiran dan keputusannya sendiri menuju puncak prestasi.</p>
+                        <ul>
+                            <li><strong>Pelatihan mindset:</strong> Membangun mentalitas juara, motivasi intrinsik, dan kemampuan manajemen stres saat ujian.</li>
+                            <li><strong>Proyek aplikatif:</strong> Membawa ilmu keluar dari buku dan menerapkannya dalam memecahkan kasus dunia nyata (misal: logika matematika untuk analisis data).</li>
+                            <li><strong>Komunitas belajar:</strong> Ekosistem diskusi tingkat tinggi dan mentorship langsung dengan alumni sukses.</li>
+                        </ul>
+</div>
+
+</div>
+</div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer style="text-align: center; padding: 20px; background-color: #222; color: #fff;">
+        <div class="container">
+            <p style="margin: 0;">Hak cipta &copy; 2024 - 2026. <strong>Logicus Academy</strong>.</p>
+            <p style="margin: 5px 0 0 0; font-size: 0.9em; color: #aaa;">Semua hak dilindungi undang-undang.</p>
+        </div>
+</footer>
+
 </body>
+</html>
