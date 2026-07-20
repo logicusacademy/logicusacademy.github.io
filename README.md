@@ -35,7 +35,7 @@
 <section id="about" class="about" style="padding: 40px 20px; background-color: #f9f9f9;">
 <div class="container" style="max-width: 800px; margin: 0 auto;">
 <div style="margin-bottom: 30px;">
-                    <h2>Jati Diri & Tujuan</h2>
+                    <h2>Visi & Misi</h2>
                     <p>Bukan hanya mengejar kelulusan, kami membangun fondasi manusia yang siap menghadapi kerumitan dunia nyata. Inilah arah langkah kami:</p>
 </div>
                 
