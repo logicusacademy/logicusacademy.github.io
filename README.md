@@ -100,8 +100,8 @@
 <!-- FOOTER -->
 <footer style="text-align: center; padding: 20px; background-color: #222; color: #fff;">
         <div class="container">
-            <p style="margin: 0;">Hak cipta &copy; 2024 - 2026. <strong>Logicus Academy</strong>.</p>
-            <p style="margin: 5px 0 0 0; font-size: 0.9em; color: #aaa;">Semua hak dilindungi undang-undang.</p>
+            <p style="margin: 0;">Hak cipta &copy; 2024 - 2026. <strong>Logicus Academy</strong>. Semua hak dilindungi undang-undang.
+            </p>
         </div>
 </footer>
 
