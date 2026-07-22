@@ -61,7 +61,7 @@
                     
 <!-- FASE 1 -->
 <div class="phase-card" style="margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
-                        <h3 style="color: #2c3e50;">1. LEARN! <em>(Menanamkan Rasa Ingin Tahu)</em></h3>
+                        <h3 style="color: #2c3e50;">1. LEARN! <em>(Menanamkan Keingintahuan & Kekreatifan)</em></h3>
                         <p><strong>Titik Awal:</strong> Segala sesuatu dimulai dari membedah pertanyaan <em>"Mengapa?"</em>. Pada fase ini, kami membebaskan siswa dari beban menghafal. Kami mengajari mereka cara menyerap esensi ilmu secara mendalam.</p>
                         <ul>
                             <li><strong>Pembelajaran berbasis konsep:</strong> Setiap materi diajarkan dengan mengurai sebab-akibat agar materi terasa hidup dan relevan.</li>
@@ -72,7 +72,7 @@
 
 <!-- FASE 2 -->
 <div class="phase-card" style="margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
-                        <h3 style="color: #2c3e50;">2. LOGIC! <em>(Menumbuhkan Penalaran Logis & Kritis)</em></h3>
+                        <h3 style="color: #2c3e50;">2. LOGIC! <em>(Menumbuhkan Penalaran Logis & Pemikiran Kritis)</em></h3>
                         <p><strong>Titik Proses:</strong> Informasi yang dipahami akan menjadi rentan tanpa adanya struktur. Di fase ini, kami mengubah rasa ingin tahu menjadi sirkuit logika yang tajam untuk mengeksekusi masalah.</p>
                         <ul>
                             <li><strong>Latihan berpikir kritis:</strong> Siswa dilatih menginterogasi asumsi dan mengurai soal-soal kompleks langkah demi langkah.</li>
