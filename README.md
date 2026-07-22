@@ -83,7 +83,7 @@
 
 <!-- FASE 3 -->
 <div class="phase-card" style="margin-bottom: 40px;">
-                        <h3 style="color: #2c3e50;">3. LEAD! <em>(Mematangkan Metakognisi & Kemandirian)</em></h3>
+                        <h3 style="color: #2c3e50;">3. LEAD! <em>(Mematangkan Metakognisi & Resiliensi)</em></h3>
                         <p><strong>Titik Puncak:</strong> Inilah hasil akhir dari proses Logicus. Siswa tidak lagi bergantung pada "suapan" guru atau rumus instan. Mereka kini mampu memimpin pikiran dan keputusannya sendiri menuju puncak prestasi.</p>
                         <ul>
                             <li><strong>Pelatihan mindset:</strong> Membangun mentalitas juara, motivasi intrinsik, dan kemampuan manajemen stres saat ujian.</li>
