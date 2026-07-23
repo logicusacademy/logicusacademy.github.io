@@ -26,7 +26,7 @@
             <div class="container" style="max-width: 800px; margin: 0 auto; text-align: center;">
                 <h2>Manifesto Kami</h2>
                 <blockquote style="font-size: 1.1em; border-left: 4px solid #333; padding-left: 20px; text-align: left; background: #fafafa; padding: 20px;">
-                    "Mulai dari menanamkan rasa ingin tahu untuk memahami konsep dasar, menumbuhkan penalaran logis dan pemikiran kritis, hingga mematangkan kemampuan <strong>metakognisi</strong> dalam penyelesaian masalah; Logicus merancang setiap program sebagai perjalanan belajar sepanjang hayat: <strong>bertahap prosesnya, terukur capaiannya, dan berkelanjutan dampaknya.</strong>"
+                    "Mulai dari menanamkan keingintahuan untuk memahami konsep dasar, menumbuhkan penalaran logis dan pemikiran kritis, hingga mematangkan kemampuan <strong>metakognisi</strong> dalam penyelesaian masalah; Logicus merancang setiap program sebagai perjalanan belajar sepanjang hayat: <strong>bertahap prosesnya, terukur capaiannya, dan berkelanjutan dampaknya.</strong>"
                 </blockquote>
             </div>
 </section>
