@@ -41,7 +41,7 @@
                 
 <div style="margin-bottom: 20px;">
                     <h3>Visi</h3>
-                    <p><strong>"Menjadi Lembaga Pendidikan yang Membangun Generasi Bernalar Logis, Berpikir Kritis, Solutif, Kreatif, dan Kompetitif."</strong></p>
+                    <p><strong>"Menjadi Lembaga Pendidikan yang Membangun Generasi Bernalar Logis, Berpikir Kritis, Kreatif, Solutif, dan Kompetitif."</strong></p>
 </div>
                 
 <div>
