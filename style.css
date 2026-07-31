@@ -193,7 +193,6 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .hero h1 .strike {
-    color: inherit;
     position: relative;
     display: inline-block;
 }
@@ -201,14 +200,15 @@ button { font-family: inherit; cursor: pointer; }
 .hero h1 .strike::after {
     content: "";
     position: absolute;
-    left: -3%;
-    right: -3%;
-    top: 52%;
-    height: 3px;
-    background: var(--navy);
-    transform: rotate(-3deg);
+    left: -4%;
+    right: -4%;
+    top: 54%;
+    height: 4px;
+    background: var(--navy); /* garis coret navy */
+    transform: rotate(-4deg);
     border-radius: 999px;
 }
+
 .hero-lead {
     font-size: 1.1rem;
     color: var(--charcoal);
