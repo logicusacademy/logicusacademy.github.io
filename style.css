@@ -190,18 +190,23 @@ button { font-family: inherit; cursor: pointer; }
 }
 .hero h1 .highlight {
     color: var(--orange);
+}
+
+.hero h1 .strike {
+    color: inherit;
     position: relative;
     display: inline-block;
 }
-.hero h1 .highlight.strike::after {
+
+.hero h1 .strike::after {
     content: "";
     position: absolute;
     left: -3%;
     right: -3%;
     top: 52%;
-    height: 4px;
-    background: currentColor;
-    transform: rotate(-4deg);
+    height: 3px;
+    background: var(--navy);
+    transform: rotate(-3deg);
     border-radius: 999px;
 }
 .hero-lead {
