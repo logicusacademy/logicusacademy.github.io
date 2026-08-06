@@ -1,376 +1,259 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logicus Academy — Belajar Berpikir, Bukan Sekadar Menghafal</title>
-    <meta name="description" content="Logicus Academy membimbing siswa SD, SMP, SMA, hingga mahasiswa untuk memahami konsep secara mendalam, bernalar logis, berpikir kritis, dan memecahkan masalah secara sistematis. Belajar masuk akal, hasil optimal.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Logicus Academy — Belajar Berpikir, Bukan Sekadar Menghafal</title>
+	<meta name="description" content="Logicus Academy membimbing siswa SD, SMP, SMA, hingga mahasiswa untuk memahami konsep secara mendalam, bernalar logis, berpikir kritis, dan memecahkan masalah secara sistematis. Belajar masuk akal, hasil optimal.">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<link rel="stylesheet" href="style.css"> </head>
 
-    <a class="skip-link" href="#main">Langsung ke konten</a>
-
-    <!-- ============ HEADER ============ -->
-    <header class="main-header" id="header">
-        <div class="container header-inner">
-            <a href="#" class="logo" aria-label="Logicus Academy — beranda">
-                <span class="logo-word">Logicus<em>Academy</em></span>
-            </a>
-
-            <nav class="main-nav" id="main-nav">
-                <ul>
-                    <li><a href="#program">Program</a></li>
-                    <li><a href="#metode">Metode</a></li>
-                    <!--
+<body> <a class="skip-link" href="#main">Langsung ke konten</a>
+	<!-- ============ HEADER ============ -->
+	<header class="main-header" id="header">
+		<div class="container header-inner">
+			<a href="#" class="logo" aria-label="Logicus Academy — beranda"> <span class="logo-word">Logicus<em>Academy</em></span> </a>
+			<nav class="main-nav" id="main-nav">
+				<ul>
+					<li><a href="#program">Program</a></li>
+					<li><a href="#metode">Metode</a></li>
+					<!--
                     <li><a href="#inspirator">Filosofi</a></li>
                     -->
-                    <li><a href="#testimoni">Testimoni</a></li>
-                    <li><a href="#kontak">Kontak</a></li>
-                </ul>
-                <div class="nav-actions">
-                    <a href="#" class="btn btn-ghost">Masuk</a>
-                    <a href="#konsultasi" class="btn btn-primary">Konsultasi Gratis</a>
-                </div>
-            </nav>
-
-            <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="main-nav">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
-    </header>
-
-    <main id="main">
-        <!-- ============ HERO ============ -->
-        <section class="hero">
-            <div class="container hero-grid">
-                <div class="hero-copy" data-reveal>
-                    <p class="eyebrow">The Thinking Academy</p>
-                    <h1>Belajar <span class="highlight">Berpikir</span>,
+					<li><a href="#testimoni">Testimoni</a></li>
+					<li><a href="#kontak">Kontak</a></li>
+				</ul>
+				<div class="nav-actions"> <a href="#" class="btn btn-ghost">Masuk</a> <a href="#konsultasi" class="btn btn-primary">Konsultasi Gratis</a> </div>
+			</nav>
+			<button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="main-nav"> <span></span><span></span><span></span> </button>
+		</div>
+	</header>
+	<main id="main">
+		<!-- ============ HERO ============ -->
+		<section class="hero">
+			<div class="container hero-grid">
+				<div class="hero-copy" data-reveal>
+					<p class="eyebrow">The Thinking Academy</p>
+					<h1>Belajar <span class="highlight">Berpikir</span>,
                         <br>Bukan Sekadar <span class="highlight strike">Menghafal.</span>
                     </h1>
-                    <p class="hero-lead">Logicus Academy membimbing siswa SD, SMP, SMA, hingga mahasiswa untuk memahami konsep secara mendalam, bernalar logis, berpikir kritis, dan memecahkan masalah secara sistematis—karena belajar yang baik dimulai dari cara berpikir yang benar.</p>
-                    <div class="hero-actions">
-                        <a href="#konsultasi" class="btn btn-primary btn-lg">Konsultasi Gratis <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="#program" class="btn btn-outline btn-lg">Lihat Program</a>
-                    </div>
-                    <div class="hero-tagline">
-                        <i class="fa-solid fa-quote-left"></i>
-                        <span>Belajar Masuk Akal, Hasil Optimal!</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============ INSIGHT: HAFAL VS PAHAM ============ -->
-        <section class="insight">
-            <div class="container">
-                <p class="section-eyebrow" data-reveal>Mengapa Logicus?</p>
-                <h2 data-reveal>Hafal rumus tetapi bingung saat soalnya diubah sedikit?</h2>
-                <p class="section-lead" data-reveal>Itu bukan salah anak Anda — itu tanda klasik pembelajaran berbasis hafalan, bukan pemahaman.</p>
-
-                <div class="compare-grid">
-                    <div class="compare-card compare-old" data-reveal>
-                        <span class="compare-tag">Cara Lama</span>
-                        <h3>Menghafal Jawaban</h3>
-                        <ul>
-                            <li><i class="fa-solid fa-xmark"></i> Fokus pada drilling soal berulang</li>
-                            <li><i class="fa-solid fa-xmark"></i> Kesulitan saat soal sedikit berbeda</li>
-                            <li><i class="fa-solid fa-xmark"></i> Nilai naik sesaat, pemahaman tidak bertahan</li>
-                        </ul>
-                    </div>
-                    <div class="compare-vs" aria-hidden="true">VS</div>
-                    <div class="compare-card compare-new" data-reveal>
-                        <span class="compare-tag">Cara Logicus</span>
-                        <h3>Memahami Cara Berpikir</h3>
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i> Melatih penalaran logis lintas mata pelajaran</li>
-                            <li><i class="fa-solid fa-check"></i> Siap menghadapi soal dan masalah apa pun</li>
-                            <li><i class="fa-solid fa-check"></i> Kemampuan yang bertahan dan berlangsung lama</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="divider-circuit" aria-hidden="true">
-            <svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0 30 H420 L450 10 L480 50 L510 30 H1200" stroke="#F5941B" stroke-width="2" fill="none"/></svg>
-        </div>
-
-<!-- ============ PROGRAM ============ -->
-<section class="programs" id="program">
-    <div class="container">
-        <p class="section-eyebrow" data-reveal>Program Belajar</p>
-
-        <h2 data-reveal>Satu Metode. Setiap Jenjang.</h2>
-
-        <p class="section-lead" data-reveal>
-            Mulai dari menanamkan rasa ingin tahu untuk memahami konsep dasar, menumbuhkan penalaran logis dan pemikiran kritis, hingga mematangkan kemampuan metakognisi dalam penyelesaian masalah; Logicus merancang setiap program sebagai perjalanan belajar sepanjang hayat: terstruktur, terukur, dan berkelanjutan.
-        </p>
-
-        <div class="program-grid">
-
-            <!-- Prima -->
-            <article class="program-card" data-reveal>
-                <span class="program-index">01</span>
-                <div class="program-icon">
-                    <i class="fa-solid fa-seedling"></i>
-                </div>
-
-                <h3>Logicus Prima</h3>
-
-                <p class="program-audience">
-                    SD
-                </p>
-
-                <p>
-                    Membangun landasan berpikir yang kuat melalui pembelajaran berbasis konsep,
-                    logika, dan rasa ingin tahu. Siswa belajar memahami, bukan sekadar
-                    menghafal, sehingga siap menghadapi jenjang berikutnya.
-                </p>
-            </article>
-
-            <!-- Optima -->
-            <article class="program-card" data-reveal>
-                <span class="program-index">02</span>
-                <div class="program-icon">
-                    <i class="fa-solid fa-diagram-project"></i>
-                </div>
-
-                <h3>Logicus Optima</h3>
-
-                <p class="program-audience">
-                    SMP &bull; SMA
-                </p>
-
-                <p>
-                    Mengembangkan kemampuan berpikir analitis, kritis, dan sistematis untuk
-                    menghadapi TKA, UTBK, olimpiade, maupun tantangan akademik melalui strategi
-                    belajar yang lebih efektif dan terukur.
-                </p>
-            </article>
-
-            <!-- Ultima -->
-            <article class="program-card" data-reveal>
-                <span class="program-index">03</span>
-                <div class="program-icon">
-                    <i class="fa-solid fa-chart-line"></i>
-                </div>
-
-                <h3>Logicus Ultima</h3>
-
-                <p class="program-audience">
-                    Mahasiswa &amp; Umum
-                </p>
-
-                <p>
-                    Mempersiapkan pembelajar menjadi individu yang mampu berpikir strategis,
-                    mengambil keputusan berbasis data, serta menyelesaikan permasalahan kompleks
-                    untuk dunia perkuliahan, karier, dan kehidupan profesional.
-                </p>
-            </article>
-
-            <!-- Educators -->
-            <article class="program-card" data-reveal>
-                <span class="program-index">04</span>
-                <div class="program-icon">
-                    <i class="fa-solid fa-chalkboard-user"></i>
-                </div>
-
-                <h3>Logicus for Educators</h3>
-
-                <p class="program-audience">
-                    Guru &amp; Pendidik
-                </p>
-
-                <p>
-                    Program pengembangan profesional untuk membantu pendidik merancang
-                    pembelajaran yang menumbuhkan penalaran, pemahaman konseptual, dan budaya
-                    berpikir kritis di ruang kelas.
-                </p>
-            </article>
-
-            <!-- Parents -->
-            <article class="program-card" data-reveal>
-                <span class="program-index">05</span>
-                <div class="program-icon">
-                    <i class="fa-solid fa-people-roof"></i>
-                </div>
-
-                <h3>Logicus for Parents</h3>
-
-                <p class="program-audience">
-                    Orang Tua
-                </p>
-
-                <p>
-                    Membantu orang tua memahami cara belajar anak, membangun kebiasaan berpikir
-                    yang positif, serta menciptakan lingkungan belajar yang mendukung
-                    perkembangan akademik maupun karakter.
-                </p>
-            </article>
-            
-            <!-- CTA -->
-                    <a href="#konsultasi" class="program-card program-cta" data-reveal>
-                        <div>
-                            <h3>Belum yakin mulai dari mana?</h3>
-                            <p>Konsultasikan gratis dengan tim kami, temukan program yang paling cocok.</p>
-                        </div>
-                        <span class="program-cta-arrow"><i class="fa-solid fa-arrow-right"></i></span>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============ METODE / FILOSOFI ============ -->
-        <section class="method" id="metode">
-            <div class="container method-grid">
-                <div class="method-copy">
-                    <p class="section-eyebrow section-eyebrow--light" data-reveal>Filosofi Kami</p>
-                    <h2 data-reveal>Dua Sisi Berpikir, Satu Tujuan</h2>
-                    <p data-reveal> 
-                    Nama "Logicus" berakar dari bahasa Yunani, <em>logikos</em>, yang secara harfiah berarti "berkaitan dengan nalar"—sebuah sejarah panjang yang membimbing pemikiran manusia sejak masa Aristoteles hingga perkembangan kecerdasan buatan hari ini.</p>
-                    <p data-reveal>Identitas kami menggambarkan otak dengan dua belahan: satu sisi organik yang merepresentasikan intuisi dan rasa ingin tahu manusia, satu sisi lagi berbentuk sirkuit yang merepresentasikan struktur dan presisi. Di Logicus, kedua sisi ini dilatih untuk bekerja bersama.</p>
-                    <a href="#kontak" class="btn btn-outline-light">Pelajari Metode Kami</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============ INSPIRATOR ============ -->
-        <section class="inspirator" id="inspirator">
-            <div class="container">
-                <p class="section-eyebrow" data-reveal>Inspirator</p>
-                <h2 data-reveal>Tokoh yang Membentuk Cara Berpikir Kami</h2>
-                <p class="section-lead" data-reveal>Tiga warisan pemikiran yang menjadi rujukan filosofi Logicus Academy — logika, kemandirian berpikir, dan pendidikan sebagai penuntun.</p>
-
-                <div class="inspirator-grid">
-                    <article class="inspirator-card" data-reveal>
-                        <span class="inspirator-mark" aria-hidden="true"><i class="fa-solid fa-scale-balanced"></i></span>
-                        <h3>Aristoteles</h3>
-                        <p class="inspirator-role">Bapak Logika Formal</p>
-                        <p>Meletakkan dasar penalaran valid lewat <em>Organon</em> — akar dari kata "Logicus" itu sendiri.</p>
-                    </article>
-                    <article class="inspirator-card" data-reveal>
-                        <span class="inspirator-mark" aria-hidden="true"><i class="fa-solid fa-compass"></i></span>
-                        <h3>Ki Hajar Dewantara</h3>
-                        <p class="inspirator-role">Bapak Pendidikan Indonesia</p>
-                        <p>Mengajarkan bahwa pendidikan sejati menuntun, bukan sekadar mengisi — selaras dengan peran guru sebagai pemandu berpikir.</p>
-                    </article>
-                    <article class="inspirator-card" data-reveal>
-                        <span class="inspirator-mark" aria-hidden="true"><i class="fa-solid fa-book-open-reader"></i></span>
-                        <h3>KH. Ahmad Dahlan</h3>
-                        <p class="inspirator-role">Pembaru Pendidikan Berlandaskan Akal Sehat</p>
-                        <p>Menyatukan ilmu dan akhlak — ilmu yang mencerahkan, adab yang membimbing.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============ TESTIMONI ============ -->
-        <section class="testimoni" id="testimoni">
-            <div class="container">
-                <p class="section-eyebrow" data-reveal>Testimoni</p>
-                <h2 data-reveal>Kata Mereka yang Sudah Belajar Berpikir</h2>
-
-                <div class="testimoni-grid">
-                    <blockquote class="testimoni-card" data-reveal>
-                        <p>"Anak saya jadi lebih berani bertanya 'mengapa', bukan cuma menerima jawaban begitu saja."</p>
-                        <footer>Orang tua siswa, Logicus Prima</footer>
-                    </blockquote>
-                    <blockquote class="testimoni-card" data-reveal>
-                        <p>"Metodenya beda banget, bukan drilling soal, tapi beneran diajarin cara mikirnya dari akar masalah."</p>
-                        <footer>Siswa, Logicus Optima</footer>
-                    </blockquote>
-                    <blockquote class="testimoni-card" data-reveal>
-                        <p>"Sebagai guru, pelatihan ini mengubah cara saya bertanya di kelas — lebih banyak memancing, lebih sedikit menjawab."</p>
-                        <footer>Peserta, Logicus for Educators</footer>
-                    </blockquote>
-                </div>
-            </div>
-        </section>
-
-        <!-- ============ CTA ============ -->
-        <section class="cta-band" id="konsultasi">
-            <div class="container cta-inner">
-                <div>
-                    <h2>Dunia butuh lebih banyak orang yang tahu cara berpikir.</h2>
-                    <p>Jadwalkan konsultasi gratis dan temukan program yang tepat untuk anak Anda.</p>
-                </div>
-                <form class="cta-form" data-reveal>
-                    <input type="text" placeholder="Nama orang tua atau siswa" required>
-                    <input type="tel" placeholder="Nomor WhatsApp" required>
-                    <select required>
-                        <option value="" disabled selected>Pilih jenjang</option>
-                        <option>SD</option>
-                        <option>SMP</option>
-                        <option>SMA</option>
-                        <option>Mahasiswa</option>
-                        <option>Guru</option>
-                        <option>Orang Tua</option>
-                    </select>
-                    <button type="submit" class="btn btn-primary btn-lg">Jadwalkan Konsultasi</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <!-- ============ FOOTER ============ -->
-    <footer class="main-footer" id="kontak">
-        <div class="container footer-grid">
-            <div class="footer-brand">
-                <a href="#" class="logo logo-footer">
-                    <span class="logo-word">Logicus<em>Academy</em></span>
-                </a>
-                <p>Belajar berpikir, bukan sekadar menghafal — untuk seumur hidup.</p>
-                <div class="social-links">
-                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://instagram.com/logicusacademy" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="https://tiktok.com/@logicusacademy" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-                    <a href="https://www.linkedin.com/in/syahrildimassabirin/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.youtube.com/@LogicusAcademy/" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                </div>
-            </div>
-
-            <div class="footer-col">
-                <h3>Logicus Academy</h3>
-                <ul>
-                    <li><a href="#metode">Tentang Kami</a></li>
-                    <li><a href="#metode">Metode Kami</a></li>
-                    <!--
+					<p class="hero-lead">Logicus Academy membimbing siswa SD, SMP, SMA, hingga mahasiswa untuk memahami konsep secara mendalam, bernalar logis, berpikir kritis, dan memecahkan masalah secara sistematis—karena belajar yang baik dimulai dari cara berpikir yang benar.</p>
+					<div class="hero-actions"> <a href="#konsultasi" class="btn btn-primary btn-lg">Konsultasi Gratis <i class="fa-solid fa-arrow-right"></i></a> <a href="#program" class="btn btn-outline btn-lg">Lihat Program</a> </div>
+					<div class="hero-tagline"> <i class="fa-solid fa-quote-left"></i> <span>Belajar Masuk Akal, Hasil Optimal!</span> </div>
+				</div>
+			</div>
+		</section>
+		<!-- ============ INSIGHT: HAFAL VS PAHAM ============ -->
+		<section class="insight">
+			<div class="container">
+				<p class="section-eyebrow" data-reveal>Mengapa Logicus?</p>
+				<h2 data-reveal>Hafal rumus tetapi bingung saat soalnya diubah sedikit?</h2>
+				<p class="section-lead" data-reveal>Itu bukan salah anak Anda — itu tanda klasik pembelajaran berbasis hafalan, bukan pemahaman.</p>
+				<div class="compare-grid">
+					<div class="compare-card compare-old" data-reveal> <span class="compare-tag">Cara Lama</span>
+						<h3>Menghafal Jawaban</h3>
+						<ul>
+							<li><i class="fa-solid fa-xmark"></i> Fokus pada drilling soal berulang</li>
+							<li><i class="fa-solid fa-xmark"></i> Kesulitan saat soal sedikit berbeda</li>
+							<li><i class="fa-solid fa-xmark"></i> Nilai naik sesaat, pemahaman tidak bertahan</li>
+						</ul>
+					</div>
+					<div class="compare-vs" aria-hidden="true">VS</div>
+					<div class="compare-card compare-new" data-reveal> <span class="compare-tag">Cara Logicus</span>
+						<h3>Memahami Cara Berpikir</h3>
+						<ul>
+							<li><i class="fa-solid fa-check"></i> Melatih penalaran logis lintas mata pelajaran</li>
+							<li><i class="fa-solid fa-check"></i> Siap menghadapi soal dan masalah apa pun</li>
+							<li><i class="fa-solid fa-check"></i> Kemampuan yang bertahan dan berlangsung lama</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="divider-circuit" aria-hidden="true">
+			<svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+				<path d="M0 30 H420 L450 10 L480 50 L510 30 H1200" stroke="#F5941B" stroke-width="2" fill="none" />
+			</svg>
+		</div>
+		<!-- ============ PROGRAM ============ -->
+		<section class="programs" id="program">
+			<div class="container">
+				<p class="section-eyebrow" data-reveal>Program Belajar</p>
+				<h2 data-reveal>Satu Metode. Setiap Jenjang.</h2>
+				<p class="section-lead" data-reveal> Mulai dari menanamkan rasa ingin tahu untuk memahami konsep dasar, menumbuhkan penalaran logis dan pemikiran kritis, hingga mematangkan kemampuan metakognisi dalam penyelesaian masalah; Logicus merancang setiap program sebagai perjalanan belajar sepanjang hayat: terstruktur, terukur, dan berkelanjutan. </p>
+				<div class="program-grid">
+					<!-- Prima -->
+					<article class="program-card" data-reveal> <span class="program-index">01</span>
+						<div class="program-icon"> <i class="fa-solid fa-seedling"></i> </div>
+						<h3>Logicus Prima</h3>
+						<p class="program-audience"> SD </p>
+						<p> Membangun landasan berpikir yang kuat melalui pembelajaran berbasis konsep, logika, dan rasa ingin tahu. Siswa belajar memahami, bukan sekadar menghafal, sehingga siap menghadapi jenjang berikutnya. </p>
+					</article>
+					<!-- Optima -->
+					<article class="program-card" data-reveal> <span class="program-index">02</span>
+						<div class="program-icon"> <i class="fa-solid fa-diagram-project"></i> </div>
+						<h3>Logicus Optima</h3>
+						<p class="program-audience"> SMP &bull; SMA </p>
+						<p> Mengembangkan kemampuan berpikir analitis, kritis, dan sistematis untuk menghadapi TKA, UTBK, olimpiade, maupun tantangan akademik melalui strategi belajar yang lebih efektif dan terukur. </p>
+					</article>
+					<!-- Ultima -->
+					<article class="program-card" data-reveal> <span class="program-index">03</span>
+						<div class="program-icon"> <i class="fa-solid fa-chart-line"></i> </div>
+						<h3>Logicus Ultima</h3>
+						<p class="program-audience"> Mahasiswa &amp; Umum </p>
+						<p> Mempersiapkan pembelajar menjadi individu yang mampu berpikir strategis, mengambil keputusan berbasis data, serta menyelesaikan permasalahan kompleks untuk dunia perkuliahan, karier, dan kehidupan profesional. </p>
+					</article>
+					<!-- Educators -->
+					<article class="program-card" data-reveal> <span class="program-index">04</span>
+						<div class="program-icon"> <i class="fa-solid fa-chalkboard-user"></i> </div>
+						<h3>Logicus for Educators</h3>
+						<p class="program-audience"> Guru &amp; Pendidik </p>
+						<p> Program pengembangan profesional untuk membantu pendidik merancang pembelajaran yang menumbuhkan penalaran, pemahaman konseptual, dan budaya berpikir kritis di ruang kelas. </p>
+					</article>
+					<!-- Parents -->
+					<article class="program-card" data-reveal> <span class="program-index">05</span>
+						<div class="program-icon"> <i class="fa-solid fa-people-roof"></i> </div>
+						<h3>Logicus for Parents</h3>
+						<p class="program-audience"> Orang Tua </p>
+						<p> Membantu orang tua memahami cara belajar anak, membangun kebiasaan berpikir yang positif, serta menciptakan lingkungan belajar yang mendukung perkembangan akademik maupun karakter. </p>
+					</article>
+					<!-- CTA -->
+					<a href="#konsultasi" class="program-card program-cta" data-reveal>
+						<div>
+							<h3>Belum yakin mulai dari mana?</h3>
+							<p>Konsultasikan gratis dengan tim kami, temukan program yang paling cocok.</p>
+						</div> <span class="program-cta-arrow"><i class="fa-solid fa-arrow-right"></i></span> </a>
+				</div>
+			</div>
+		</section>
+		<!-- ============ METODE / FILOSOFI ============ -->
+		<section class="method" id="metode">
+			<div class="container method-grid">
+				<div class="method-copy">
+					<p class="section-eyebrow section-eyebrow--light" data-reveal>Filosofi Kami</p>
+					<h2 data-reveal>Dua Sisi Berpikir, Satu Tujuan</h2>
+					<p data-reveal> Nama "Logicus" berakar dari bahasa Yunani, <em>logikos</em>, yang secara harfiah berarti "berkaitan dengan nalar"—sebuah sejarah panjang yang membimbing pemikiran manusia sejak masa Aristoteles hingga perkembangan kecerdasan buatan hari ini.</p>
+					<p data-reveal>Identitas kami menggambarkan otak dengan dua belahan: satu sisi organik yang merepresentasikan intuisi dan rasa ingin tahu manusia, satu sisi lagi berbentuk sirkuit yang merepresentasikan struktur dan presisi. Di Logicus, kedua sisi ini dilatih untuk bekerja bersama.</p> <a href="#kontak" class="btn btn-outline-light">Pelajari Metode Kami</a> </div>
+			</div>
+		</section>
+		<!-- ============ INSPIRATOR ============ -->
+		<section class="inspirator" id="inspirator">
+			<div class="container">
+				<p class="section-eyebrow" data-reveal>Inspirator</p>
+				<h2 data-reveal>Tokoh yang Membentuk Cara Berpikir Kami</h2>
+				<p class="section-lead" data-reveal>Tiga warisan pemikiran yang menjadi rujukan filosofi Logicus Academy — logika, kemandirian berpikir, dan pendidikan sebagai penuntun.</p>
+				<div class="inspirator-grid">
+					<article class="inspirator-card" data-reveal> <span class="inspirator-mark" aria-hidden="true"><i class="fa-solid fa-scale-balanced"></i></span>
+						<h3>Aristoteles</h3>
+						<p class="inspirator-role">Bapak Logika Formal</p>
+						<p>Meletakkan dasar penalaran valid lewat <em>Organon</em> — akar dari kata "Logicus" itu sendiri.</p>
+					</article>
+					<article class="inspirator-card" data-reveal> <span class="inspirator-mark" aria-hidden="true"><i class="fa-solid fa-compass"></i></span>
+						<h3>Ki Hajar Dewantara</h3>
+						<p class="inspirator-role">Bapak Pendidikan Indonesia</p>
+						<p>Mengajarkan bahwa pendidikan sejati menuntun, bukan sekadar mengisi — selaras dengan peran guru sebagai pemandu berpikir.</p>
+					</article>
+					<article class="inspirator-card" data-reveal> <span class="inspirator-mark" aria-hidden="true"><i class="fa-solid fa-book-open-reader"></i></span>
+						<h3>KH. Ahmad Dahlan</h3>
+						<p class="inspirator-role">Pembaru Pendidikan Berlandaskan Akal Sehat</p>
+						<p>Menyatukan ilmu dan akhlak — ilmu yang mencerahkan, adab yang membimbing.</p>
+					</article>
+				</div>
+			</div>
+		</section>
+		<!-- ============ TESTIMONI ============ -->
+		<section class="testimoni" id="testimoni">
+			<div class="container">
+				<p class="section-eyebrow" data-reveal>Testimoni</p>
+				<h2 data-reveal>Kata Mereka yang Sudah Belajar Berpikir</h2>
+				<div class="testimoni-grid">
+					<blockquote class="testimoni-card" data-reveal>
+						<p>"Anak saya jadi lebih berani bertanya 'mengapa', bukan cuma menerima jawaban begitu saja."</p>
+						<footer>Orang tua siswa, Logicus Prima</footer>
+					</blockquote>
+					<blockquote class="testimoni-card" data-reveal>
+						<p>"Metodenya beda banget, bukan drilling soal, tapi beneran diajarin cara mikirnya dari akar masalah."</p>
+						<footer>Siswa, Logicus Optima</footer>
+					</blockquote>
+					<blockquote class="testimoni-card" data-reveal>
+						<p>"Sebagai guru, pelatihan ini mengubah cara saya bertanya di kelas — lebih banyak memancing, lebih sedikit menjawab."</p>
+						<footer>Peserta, Logicus for Educators</footer>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+		<!-- ============ CTA ============ -->
+		<section class="cta-band" id="konsultasi">
+			<div class="container cta-inner">
+				<div>
+					<h2>Dunia butuh lebih banyak orang yang tahu cara berpikir.</h2>
+					<p>Jadwalkan konsultasi gratis dan temukan program yang tepat untuk anak Anda.</p>
+				</div>
+				<form class="cta-form" data-reveal>
+					<input type="text" placeholder="Nama orang tua atau siswa" required>
+					<input type="tel" placeholder="Nomor WhatsApp" required>
+					<select required>
+						<option value="" disabled selected>Pilih jenjang</option>
+						<option>SD</option>
+						<option>SMP</option>
+						<option>SMA</option>
+						<option>Mahasiswa</option>
+						<option>Guru</option>
+						<option>Orang Tua</option>
+					</select>
+					<button type="submit" class="btn btn-primary btn-lg">Jadwalkan Konsultasi</button>
+				</form>
+			</div>
+		</section>
+	</main>
+	<!-- ============ FOOTER ============ -->
+	<footer class="main-footer" id="kontak">
+		<div class="container footer-grid">
+			<div class="footer-brand">
+				<a href="#" class="logo logo-footer"> <span class="logo-word">Logicus<em>Academy</em></span> </a>
+				<p>Belajar berpikir, bukan sekadar menghafal — untuk seumur hidup.</p>
+				<div class="social-links"> <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a> <a href="https://instagram.com/logicusacademy" aria-label="Instagram"><i class="fab fa-instagram"></i></a> <a href="https://tiktok.com/@logicusacademy" aria-label="TikTok"><i class="fab fa-tiktok"></i></a> <a href="https://www.linkedin.com/in/syahrildimassabirin/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a> <a href="https://www.youtube.com/@LogicusAcademy/" aria-label="YouTube"><i class="fab fa-youtube"></i></a> </div>
+			</div>
+			<div class="footer-col">
+				<h3>Logicus Academy</h3>
+				<ul>
+					<li><a href="#metode">Tentang Kami</a></li>
+					<li><a href="#metode">Metode Kami</a></li>
+					<!--
                     <li><a href="#inspirator">Filosofi</a></li>
                     -->
-                    <li><a href="#kontak">Kontak Kami</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col">
-                <h3>Program</h3>
-                <ul>
-                    <li><a href="#program">Logicus Prima</a></li>
-                    <li><a href="#program">Logicus Optima</a></li>
-                    <li><a href="#program">Logicus Ultima</a></li>
-                    <li><a href="#program">For Educators &amp; Parents</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col">
-                <h3>Framework</h3>
-                <ul class="framework-list">
-                    <li><span>Learn!</span> Memahami, bukan menghafal.</li>
-                    <li><span>Logic!</span> Bernalar dengan struktur.</li>
-                    <li><span>Lead!</span> Berpikir untuk memimpin diri.</li>
-                </ul>
-            </div>
-        </div>
-        <div class="container copyright">
-            <p>Hak cipta &copy; 2024–2026. <strong>Logicus Academy</strong>. Semua hak dilindungi undang-undang. Belajar Masuk Akal, Hasil Optimal!</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+					<li><a href="#kontak">Kontak Kami</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h3>Program</h3>
+				<ul>
+					<li><a href="#program">Logicus Prima</a></li>
+					<li><a href="#program">Logicus Optima</a></li>
+					<li><a href="#program">Logicus Ultima</a></li>
+					<li><a href="#program">For Educators &amp; Parents</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h3>Framework</h3>
+				<ul class="framework-list">
+					<li><span>Learn!</span> Memahami, bukan menghafal.</li>
+					<li><span>Logic!</span> Bernalar dengan struktur.</li>
+					<li><span>Lead!</span> Berpikir untuk memimpin diri.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container copyright">
+			<p>Hak cipta &copy; 2024–2026. <strong>Logicus Academy</strong>. Semua hak dilindungi undang-undang. Belajar Masuk Akal, Hasil Optimal!</p>
+		</div>
+	</footer>
+	<script src="script.js"></script>
 </body>
+
 </html>
+
+
