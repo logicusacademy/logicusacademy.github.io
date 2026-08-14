@@ -127,7 +127,7 @@ button { font-family: inherit; cursor: pointer; }
     font-size: 1.15rem;
     color: var(--navy);
 }
-.logo-mark svg { width: 34px; height: 34px; }
+/*.logo-mark svg { width: 34px; height: 34px; }*/
 .logo-word em { font-style: normal; color: var(--orange); }
 
 .main-nav { display: flex; align-items: center; gap: 32px; }
@@ -230,7 +230,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .hero-tagline i { color: var(--orange); font-size: 0.8rem; }
 
-.hero-visual { display: flex; justify-content: center; }
+/*.hero-visual { display: flex; justify-content: center; }
 .brain-draw { width: min(420px, 100%); height: auto; }
 .brain-draw .stroke-organic,
 .brain-draw .stroke-circuit,
@@ -249,7 +249,7 @@ button { font-family: inherit; cursor: pointer; }
 .brain-draw .ring { animation: spin 60s linear infinite; transform-origin: center; }
 @keyframes draw { to { stroke-dashoffset: 0; } }
 @keyframes fadeIn { to { opacity: 1; } }
-@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes spin { to { transform: rotate(360deg); } }*/
 
 /* ============ SECTION GENERIC ============ */
 section { padding: 96px 0; }
@@ -279,7 +279,7 @@ section { padding: 96px 0; }
 }
 .compare-old { background: #F3EFE6; }
 .compare-new { background: var(--navy); }
-.compare-new h3, .compare-tag.new-tag { color: var(--white); }
+/*.compare-new h3, .compare-tag.new-tag { color: var(--white); }*/
 .compare-tag {
     display: inline-block;
     font-size: 0.75rem;
@@ -293,7 +293,7 @@ section { padding: 96px 0; }
     color: var(--navy);
 }
 .compare-new .compare-tag { background: rgba(245,148,27,0.18); color: var(--amber); }
-.compare-new h3 { color: var(--white); }
+/*.compare-new h3 { color: var(--white); }*/
 .compare-new p, .compare-new li { color: #DCE6EF; }
 .compare-card ul li { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 12px; font-size: 0.98rem; }
 .compare-old li i { color: #B0472A; margin-top: 4px; }
@@ -387,7 +387,7 @@ section { padding: 96px 0; }
     gap: 60px;
     align-items: center;
 }
-.method-visual svg { width: 100%; max-width: 320px; }
+/*.method-visual svg { width: 100%; max-width: 320px; }*/
 .method-copy p { color: #D7E1EA; }
 .method-copy em { color: var(--amber); font-style: normal; font-weight: 600; }
 
