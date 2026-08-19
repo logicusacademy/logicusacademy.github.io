@@ -127,6 +127,10 @@ button { font-family: inherit; cursor: pointer; }
     font-size: 1.15rem;
     color: var(--navy);
 }
+.logo-mark svg {
+   width: 34px;
+   height: 34px;
+}
 .logo-word em {
     font-style: normal;
     color: var(--orange);
@@ -374,8 +378,18 @@ section { padding: 96px 0; }
     align-items: center;
 }
 
-.method-copy p { color: #D7E1EA; }
-.method-copy em { color: var(--amber); font-style: normal; font-weight: 600; }
+.method-visual svg {
+   width: 100%;
+   max-width: 320px;
+}
+.method-copy p {
+   color: #D7E1EA;
+}
+.method-copy em {
+   color: var(--amber);
+   font-style: normal;
+   font-weight: 600;
+}
 
 /* ============ INSPIRATOR ============ */
 .inspirator { background: var(--white); }
